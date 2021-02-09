@@ -23,11 +23,11 @@ then
   eval cd .. && composer create-project roots/bedrock public_html
 
   # Start download theme
-  echo "Downloading Theme"
-  eval cd public_html/web/app/themes
-  git clone https://github.com/adamk22/base-camp.git $project-theme
-  eval cd $project-theme
-  composer install && npm install
+  # echo "Downloading Theme"
+  # eval cd public_html/web/app/themes
+  # git clone https://github.com/adamk22/base-camp.git $project-theme
+  # eval cd $project-theme
+  # composer install && npm install
   # End download theme
 fi
 
